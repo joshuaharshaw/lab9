@@ -1,0 +1,97 @@
+/* Restats and Resizes*/
+* {
+margin: 0;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+  background-color: rgba(245, 245, 245, 0.6);
+}
+
+
+/* Standard Classes*/
+.material {
+  box-shadow: 0px 2px 10px black;
+}
+
+.material-sm {
+  box-shadow: 0px 2px 5px black;
+}
+
+.material-xs {
+  box-shadow: 0px 2px 3px black;
+}
+
+
+/*Navbar*/
+#navbar {
+  color:rgba(240, 240, 240, 0.6);
+  background-color: #39435e;
+  font-family: 'Josefin Sans', sans-serif;
+  height:70px;
+  text-decoration: 
+}
+
+header {
+  float: left;
+  width: 250px;
+  font-size: 2em;
+  padding: 3px; 
+}
+
+.small-name {
+  display: none;
+}
+
+#nav-links {
+    float: right;
+    min-width: 150px;
+    list-style-type: none;
+    margin: 12px 20px 0px 0px; 
+    padding: 0;
+}
+
+#nav-links li {
+  font-size: 1.2em;
+  float: left;
+  display: block;
+  margin:0px 5px;
+  color:rgba(240, 240, 240, 0.6);
+  width: 200px;
+  height: 50px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: rgba(240, 240, 240, 0.6);
+}
+
+#nav-links a:hover {
+  font-size: 1.05em;
+}
+
+
+@media (max-width: 500px) {
+
+header {
+  width: 50px;
+}
+
+.big-name {
+  display: none;
+}
+
+.small-name {
+  display: block;
+}
+
+#nav-links a:hover {
+  font-size: 1.0em;
+}
+
+
+}
